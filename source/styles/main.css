@@ -1,0 +1,56 @@
+@import "./app.css";
+
+body{
+  background-color: #EDC2FF;
+  /*EDC2FF*/
+}
+*{
+  margin: 0 auto;
+}
+@font-face {
+  font-family: 'Rye';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rye Regular'), local('Rye-Regular'), url('../font/Clockopia.ttf') format('woff');
+}
+/*@font-face {
+  font-family: 'Monda_no';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Monda'), local('Monda-Regular'), url('../font/Monda-Regular.ttf') format('truetype');
+}*/
+@font-face {
+  font-family: 'Monda_bo';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Monda Bold'), local('Monda-Bold'), url('../font/Monda-Bold.ttf') format('truetype');
+}
+.top {
+  width: 7rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+.top img{
+  width: 100%;
+}
+.days {
+  font-family: 'Rye', cursive;
+  width: auto;
+  text-align: center;
+}
+.days-number {
+  font-size: 5rem;
+  text-align: center;
+}
+.days-label{
+  font-size: 1.1rem;
+  position: absolute;
+  margin-top: 3.5rem;
+}
+.seconds {
+  font-size: 1rem;
+  margin-top: 1.3rem;
+  font-family: "Monda_bo", Georgia, sans-serif;
+  width: auto;
+  text-align: center;
+}
